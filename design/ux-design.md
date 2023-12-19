@@ -41,3 +41,9 @@ Features (in preliminary priority order):
 - A sitewide footer with an address, brief opening hours, and social links
 - Focus on the individual customer experience for the menu page
 - Focus on the exhibition experience for the events page
+
+---
+## 4. Skeleton
+
+- Create wireframes for mobile, tablet, and desktop; focus on mobile-first design
+- Use bootstrap to create a basic layout for sitewide header and footer, using grid system
