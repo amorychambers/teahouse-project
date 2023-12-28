@@ -4,7 +4,7 @@
     background: url('../images/hero.jpg') center center/cover no-repeat;
     width: 100%;
     height: 40vh;
-
+    margin-bottom: 15px;
 }
 
 .hero-text {
@@ -12,4 +12,42 @@
     position: relative;
     top: 30%;
     left: 20%;
+}
+
+
+/* -------------------- Homepage Carousel -------------------- */
+
+.slide-sit {
+    position: relative;
+}
+
+.text-sit {
+    color: #fff;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.slide-share {
+    position: relative;
+    
+}
+
+.text-share {
+    color: #fff;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.slide-hello {
+    position: relative;
+    
+}
+
+.text-hello {
+    color: #fff;
+    position: absolute;
+    top: 10%;
+    left: 10%;
 }
