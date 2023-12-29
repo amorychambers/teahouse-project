@@ -59,3 +59,20 @@
 .map iframe {
     width: 90%;
 }
+
+
+
+
+/* -------------------- Our Teas -------------------- */
+
+
+.tea {
+    margin: 20px 0px;
+}
+
+.tea-leaves {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
