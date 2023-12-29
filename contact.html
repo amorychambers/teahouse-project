@@ -19,16 +19,16 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand ms-5" href="#index.html" id="logo">Tea & Time<span class="d-none d-md-inline"> |
-                        Contact Us</span></a>
-                <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                <a class="navbar-brand" href="#index.html" id="logo">Tea & Time<span class="d-none d-md-inline"> |
+                        Teahouse</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse me-5" id="navbarNav">
+                <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item ms-auto">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item ms-auto">
                             <a class="nav-link" href="our-teas.html">Our Teas</a>
@@ -37,7 +37,7 @@
                             <a class="nav-link" href="events.html">Events</a>
                         </li>
                         <li class="nav-item ms-auto">
-                            <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+                            <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -45,7 +45,34 @@
         </nav>
     </header>
     <section>
-
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h3 class="page-heading">Contact Us</h3>
+                    <p>Want to discuss booking our events space? Got questions about the teahouse? Get in touch here!</p>
+                </div>
+            </div>
+            <div class="row contact-form">
+                <div class="col">
+                    <form action="" method="post">
+                        <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="First Name..." aria-placeholder="first name" required>
+                        </div>
+                        <div>
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Email Address..." aria-placeholder="email address" required>
+                        </div>
+                        <div>
+                        <textarea id="query" name="query" placeholder="Type here!" aria-placeholder="Text area to type query"></textarea>
+                        </div>
+                        <div>
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
     <footer>
         <div class="container-fluid">
