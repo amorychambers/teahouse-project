@@ -30,7 +30,7 @@
 
 .slide-share {
     position: relative;
-    
+
 }
 
 .text-share {
@@ -42,7 +42,7 @@
 
 .slide-hello {
     position: relative;
-    
+
 }
 
 .text-hello {
@@ -67,7 +67,9 @@
 
 
 .tea {
-    margin: 20px 0px;
+    margin: 50px 0px;
+    padding: 20px 0;
+    text-align: center;
 }
 
 .tea-leaves {
@@ -75,4 +77,13 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
+
+}
+
+.aside-text {
+
+    max-width: 50%;
+    text-align: center;
+    padding: 20px;
+    margin: 10px 0;
 }
