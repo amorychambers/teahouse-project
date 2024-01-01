@@ -1,12 +1,20 @@
 /* -------------------- General Styles -------------------- */
 
 * {
-    font-family: 'Zen Maru Gothic', sans-serif
+    font-family: 'Zen Maru Gothic', sans-serif;
+    
+}
+
+body {
+    background-color: #fbefcc;
+}
+
+.accent {
+    background-color: #CCD8FB;
 }
 
 .centered {
     text-align: center;
-    margin: auto;
 }
 
 
@@ -88,8 +96,10 @@
     width: 90%;
 }
 
-
-
+.visit {
+    max-width: 95%;
+    margin: auto;
+}
 
 /* -------------------- Our Teas -------------------- */
 
@@ -122,7 +132,8 @@
 /* -------------------- Contact Form -------------------- */
 
 
-label, input {
+label,
+input {
     display: block;
 }
 
@@ -132,9 +143,7 @@ label, input {
 /* -------------------- Events -------------------- */
 
 
-.event {
-
-}
+.event {}
 
 .events-section figure {
     text-align: center;
