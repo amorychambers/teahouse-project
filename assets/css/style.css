@@ -1,3 +1,16 @@
+/* -------------------- General Styles -------------------- */
+
+* {
+    font-family: 'Zen Maru Gothic', sans-serif
+}
+
+.centered {
+    text-align: center;
+    margin: auto;
+}
+
+
+
 /* -------------------- Hero Image -------------------- */
 
 .hero-img {
@@ -17,9 +30,16 @@
 
 /* -------------------- Headings -------------------- */
 
+.navbar-brand {
+    font-family: 'Poiret One', sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
 .page-heading {
     text-align: center;
     text-decoration: underline;
+    text-transform: uppercase;
 }
 
 
@@ -137,5 +157,5 @@ label, input {
 }
 
 .sold-out {
-
+    color: grey;
 }
