@@ -17,6 +17,11 @@ body {
     text-align: center;
 }
 
+header {
+    border-bottom: solid silver 1px;
+}
+
+
 
 
 /* -------------------- Hero Image -------------------- */
@@ -31,8 +36,13 @@ body {
 .hero-text {
     color: #fff;
     position: relative;
-    top: 30%;
-    left: 20%;
+    /* top: 10%;
+    left: 20%; */
+    top: 0;
+    left: 0;
+    margin: auto;
+    padding: 20%;
+    font-weight: 400;
 }
 
 
@@ -60,8 +70,10 @@ body {
 .text-sit {
     color: #fff;
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 0;
+    left: 0;
+    padding: 10%;
+    z-index: 2;
 }
 
 .slide-share {
@@ -72,8 +84,10 @@ body {
 .text-share {
     color: #fff;
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 0;
+    left: 0;
+    padding: 10%;
+    z-index: 2;
 }
 
 .slide-hello {
@@ -84,11 +98,28 @@ body {
 .text-hello {
     color: #fff;
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 0;
+    left: 0;
+    padding: 10%;
+    z-index: 2;
 }
 
 
+.carousel-item {
+    position: relative;
+}
+
+.overlay:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
 /* -------------------- Google Map -------------------- */
 
 
