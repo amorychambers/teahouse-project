@@ -21,6 +21,10 @@ header {
     border-bottom: solid silver 1px;
 }
 
+footer {
+    border-top: solid silver 1px;
+}
+
 
 
 
@@ -59,6 +63,21 @@ header {
     text-decoration: underline;
     text-transform: uppercase;
 }
+
+
+/* -------------------- Footer -------------------- */
+
+.socials {
+    text-align: center;
+}
+
+.socials a {
+    color: #4571f0;
+    font-size: 1.5em;
+    margin: 0 5%;
+}
+
+
 
 
 /* -------------------- Homepage Carousel -------------------- */
@@ -120,7 +139,7 @@ header {
     background-color: rgba(0, 0, 0, 0.4);
     z-index: 1;
 }
-/* -------------------- Google Map -------------------- */
+/* -------------------- Visit Us -------------------- */
 
 
 .map iframe {
@@ -132,6 +151,13 @@ header {
     margin: auto;
 }
 
+address {
+    font-size: 1.25em;
+}
+
+.opening-hours td {
+    font-size: 1.25em;
+}
 /* -------------------- Our Teas -------------------- */
 
 
