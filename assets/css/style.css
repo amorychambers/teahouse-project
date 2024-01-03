@@ -74,9 +74,19 @@ footer {
     text-align: center;
     text-decoration: underline;
     text-transform: uppercase;
-    margin: 20px 0;
+    padding: 20px 0;
+    width: 100%;
+    color: white;
+    background: url('../images/hero.jpg') center center/cover no-repeat;
 }
 
+.sub-heading {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 20px 0;
+    width: 100%;
+}
 
 /* -------------------- Footer -------------------- */
 
@@ -211,6 +221,10 @@ form input, textarea {
 
 textarea {
     min-height: 30vh;
+}
+
+form {
+    min-height: 65vh;
 }
 
 
