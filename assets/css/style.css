@@ -25,6 +25,15 @@ footer {
     border-top: solid silver 1px;
 }
 
+.aside-text {
+
+    max-width: 60%;
+    text-align: center;
+    padding: 20px;
+    margin: 10px 0;
+    font-size: 1.25em;
+}
+
 
 
 
@@ -62,6 +71,7 @@ footer {
     text-align: center;
     text-decoration: underline;
     text-transform: uppercase;
+    margin: 20px 0;
 }
 
 
@@ -175,14 +185,6 @@ address {
 
 }
 
-.aside-text {
-
-    max-width: 50%;
-    text-align: center;
-    padding: 20px;
-    margin: 10px 0;
-}
-
 
 
 
@@ -200,7 +202,9 @@ input {
 /* -------------------- Events -------------------- */
 
 
-.event {}
+.padding > * {
+    padding: 10px 0;
+}
 
 .events-section figure {
     text-align: center;
