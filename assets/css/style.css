@@ -18,11 +18,11 @@ body {
 }
 
 header {
-    border-bottom: solid silver 1px;
+    border-bottom: solid 1px;
 }
 
 footer {
-    border-top: solid silver 1px;
+    border-top: solid 1px;
 }
 
 .aside-text {
@@ -34,6 +34,9 @@ footer {
     font-size: 1.25em;
 }
 
+.padding > * {
+    padding: 10px 0;
+}
 
 
 
@@ -172,7 +175,7 @@ address {
 
 
 .tea {
-    margin: 50px 0px;
+    margin: 30px 0px;
     padding: 20px 0;
     text-align: center;
 }
@@ -185,6 +188,10 @@ address {
 
 }
 
+.nav-pills {
+    --bs-nav-pills-link-active-bg: #f7e09d;
+    --bs-nav-pills-link-active-color: black;
+}
 
 
 
@@ -196,15 +203,19 @@ input {
     display: block;
 }
 
+form input, textarea {
 
+    width: 100%;
+    margin: 10px 0;
+}
+
+textarea {
+    min-height: 30vh;
+}
 
 
 /* -------------------- Events -------------------- */
 
-
-.padding > * {
-    padding: 10px 0;
-}
 
 .events-section figure {
     text-align: center;
