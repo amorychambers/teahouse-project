@@ -262,3 +262,15 @@ form {
 .sold-out {
     color: grey;
 }
+
+
+
+/* ---------------------------------------- Tablet Styles ---------------------------------------- */
+
+@media(min-width: 768px) {
+
+    .page-heading, .sub-heading {
+        font-size: 2em;
+    }
+
+}
