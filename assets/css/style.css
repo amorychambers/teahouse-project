@@ -278,6 +278,10 @@ form {
         font-size: 2em;
     }
 
+    .aside-text {
+        font-size: 1.15em;
+    }
+
     /* -------------------- Homepage -------------------- */
 
     .hero-img {
@@ -299,11 +303,23 @@ form {
         align-items: center;
     }
 
-    .events-section p, .events-section td {
+    .tea p {
         font-size: 1.15em;
     }
 
-    .aside-text {
-        font-size: 1em;
+    /* -------------------- Events -------------------- */
+    
+    .events-section p, .events-section td {
+        font-size: 1.15em;
+    }
+    
+    /* -------------------- Contact -------------------- */
+
+    .contact-section {
+        font-size: 1.15em;
+    }
+
+    form {
+        min-height: 50vh;
     }
 }
