@@ -288,4 +288,9 @@ form {
         font-size: 1.25em;
     }
 
+    .tea {
+        margin: 0;
+        padding: 0;
+    }
+
 }
