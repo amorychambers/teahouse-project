@@ -192,7 +192,14 @@ address {
     margin: 30px 0px;
     padding: 20px 0;
     text-align: center;
+    align-items: center;
+    background-color: #f7e09d;
 }
+
+.tea > * {
+    margin-top: 20px;
+}
+
 
 .tea-leaves {
 
@@ -289,8 +296,7 @@ form {
     }
 
     .tea {
-        margin: 0;
-        padding: 0;
+        align-items: center;
     }
 
 }
