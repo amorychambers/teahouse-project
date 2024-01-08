@@ -198,7 +198,7 @@ address {
 
 .tea > * {
     margin-top: 20px;
-}
+} 
 
 
 .tea-leaves {
@@ -299,4 +299,11 @@ form {
         align-items: center;
     }
 
+    .events-section p, .events-section td {
+        font-size: 1.15em;
+    }
+
+    .aside-text {
+        font-size: 1em;
+    }
 }
