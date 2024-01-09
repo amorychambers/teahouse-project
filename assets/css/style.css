@@ -323,3 +323,31 @@ form {
         min-height: 50vh;
     }
 }
+
+
+/* ---------------------------------------- Desktop Styles ---------------------------------------- */
+
+@media(min-width: 992px) {
+
+    /* -------------------- General Styles -------------------- */
+
+    /* -------------------- Homepage -------------------- */
+
+    .hero-img {
+        height: 45vh;
+    }
+
+    .hero-text {
+        padding: 10% 20%;
+    }
+
+    .text-sit, .text-share, .text-hello {
+
+        padding: 5%;
+    }
+
+    .map {
+        height: 20vh;
+    }
+
+}
