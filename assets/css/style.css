@@ -350,8 +350,14 @@ form {
         padding: 5%;
     }
 
-    .map {
 
+
+    /* -------------------- Our Teas -------------------- */
+
+    .tea-leaves {
+        margin: 0;
     }
-
+    .tea > * {
+        margin: 0 25%;
+    }
 }
