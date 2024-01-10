@@ -354,10 +354,7 @@ form {
 
     /* -------------------- Our Teas -------------------- */
 
-    .tea-leaves {
-        margin: 0;
-    }
-    .tea > * {
-        margin: 0 25%;
+    .tea {
+        min-width: 300px;
     }
 }
