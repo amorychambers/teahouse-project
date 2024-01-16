@@ -13,7 +13,7 @@
     3. [Fonts](#fonts)
     4. [Structure](#structure)
     5. [Wireframes](#wireframes)
-4. [Technologies Used](#technologies-used)
+4. [Technologies](#technologies)
     1. [Languages](#languages)
     2. [Frameworks and Tools](#frameworks-and-tools)
 5. [Features](#features)
@@ -87,15 +87,73 @@ This is a website for a fictional local teahouse. The intention of the website i
 5. As the site owner, I want users to feel the business is approachable and responsive to contact
 6. As the site owner, I want all users to have the same experience regardless of how they engage with the website
 
+## Design
+
+### Design Choices
+
+My layout decisions were informed by development principles of presenting clear accessible information, using repetition and contrast to create a memorable and easily navigated site, and first-look learning. My decisions on the style and theming of the website were informed by the perspective of the site owner wanting to create a certain brand image; I have aimed for a relaxing, sophisticated aesthetic for a culturally leaning business. 
+
+### Colours
+
+I have chosen an analogous colour scheme for the site, emphasising a simplicity and gentle atmosphere that matches the brand image. The colours chosen are muted and warm pastel colours, intended to be soothing, with a darker accent colour to create some contrast and draw attention to structural layout information. I chose a yellow analogous colour scheme for a positive and relaxing tone.
+
+Main theme colour: #fbefcc
+Accent theme colour: #f7e09d
+
+### Fonts
+
+My two fonts for the website were selected from Google Fonts' sans-serif collection. I wanted to use fonts that presented a very clean, spacious look for the headings and text. The fonts I chose were those that I felt best matched the cohesive brand theming of the website and the accessibility focused design principles that informed the entire design process. I chose a more stylistic, lightweight typeface for the headings as the text is both larger, and thus easier to read, and more prominent as an aesthetic presence on the page.
+
+[Zen Maru Gothic](https://fonts.google.com/specimen/Zen+Maru+Gothic)
+[Poiret One](https://fonts.google.com/specimen/Poiret+One?query=poiret+one)
+
+### Structure 
+
+The website is designed to feel like one cohesive page, as much as that is possible. I have focused on consistency across all four pages of the site, again, as much as possible; each page shares a header and footer, uses the same design for page headings, and follows the same basic layout principles using the Bootstrap grid system. The website is navigated by using a clear, easy-to-use navigation bar at the top of the page. This principle of a consistent site experience is also the reason I chose to display the different content on the 'Our Teas' page as tabpanels with its own navigation bar; I aimed to create a similar experience navigating to different pages as the user has when changing tabs, where only the necessary content changes. 
+
+The content I considered important enough to remain consistent across all pages is as follows:
+
+- A header with the site logo, and on desktop an additional title for the page the user is currently viewing
+- A navigation bar to access the different pages of the site
+- A footer with the business address to be more memorable
+- A short business tagline to reinforce the business ethos
+- Links to the business social media pages
+
+The site consists of four different pages and a unique 404 error page.
+
+1. Homepage - a memorable landing page to grip the user's attention and communicate useful information on first glance
+2. Our Teas - a menu page that shows users what teas are on offer at the business 
+3. Events - a page that shows both upcoming and past events, advertising the kind of events people are able to attend, and showcasing the events space to potential tenants
+4. Contact - a contact form for questions and business inquiries 
+
+
+## Wireframes
+
 
 ## Technologies 
+
+### Languages
+
 HTML5
 CSS3
-Bootstrap
-W3 Validators for HTML and CSS
-Balsamiq
-Visual Studio Code
-Obsidian 
+### Frameworks and Tools
+
+[Bootstrap v5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+[Visual Studio Code](https://code.visualstudio.com/)
+[Git](github.com)
+[Google Fonts](https://fonts.google.com/)
+[Balsamiq](https://balsamiq.com/)
+[Canva](https://www.canva.com/colors/color-wheel/)
+[Obsidian](https://obsidian.md/)
+[Pexels](https://www.pexels.com/)
+[Font Awesome](https://fontawesome.com/)
+[Favicon](https://favicon.io/)
+[W3C Markup Validation Service](https://validator.w3.org/)
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)]
+[WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+[Am I Responsive?](https://ui.dev/amiresponsive)
+[WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/)
+
 
 ## Wireframes
 
@@ -129,7 +187,6 @@ Cloned from Code Institute Template
 Bootstrap Emmett extension
 https://stackoverflow.com/questions/39817783/how-to-change-content-substitute-text-images-etc-on-different-resolutions
 https://stackoverflow.com/questions/6046110/styling-form-with-label-above-inputs
-Colour Scheme Tool - https://www.canva.com/colors/color-wheel/
 https://stackoverflow.com/questions/66040890/trying-to-get-a-dark-overlay-on-my-bootstrap-carousel-image-video
 ## Testing
 Lighthouse in devtools
