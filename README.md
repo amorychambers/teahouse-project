@@ -204,6 +204,7 @@ CSS3
 
 - Contains the business address to further reinforce the memorability
 - Social media links in a contrasting colour to draw attention and make engaging with the business easy
+- Links to automatically open a new email or WhatsApp text
 - Consistent across all pages to maintain cohesive aesthetic and to maintain focus on visiting and engaging with the business
 - On larger device sizes with more room for a clean presentation, displays company tagline to re-state the company ethos 
 
@@ -233,7 +234,21 @@ CSS3
 ![Previous event advertisements](design/features/past-events.png)
 
 
+### Contact Form
 
+- A simple, clear, responsive contact form to make it easy and inviting for the user to write to the business with any questions or inquiries
+- Aims to provide an avenue to easily address any concerns that might prevent a user from potentially visiting
+- Easy-to-access inquiries for parties who are looking to book the events space
+- Form currently posts to a Code Institute formdump page
+
+![Contact form](design/features/contact-form.png)
+
+
+### 404 Error
+
+- A simple page to redirect the user back to the homepage when encountering a 404 error. The navigation bar is still accessible if the user chooses to visit another page instead
+
+![404 error page](design/features/error-page.png)
 ## Media Content
 
 https://www.pexels.com/photo/gold-kettle-pouring-hot-water-on-cup-of-tea-230477/
