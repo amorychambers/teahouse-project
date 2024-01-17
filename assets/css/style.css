@@ -199,6 +199,7 @@ address {
     text-align: center;
     align-items: center;
     background-color: #f7e09d;
+    width: min-content;
 }
 
 .tea>* {
