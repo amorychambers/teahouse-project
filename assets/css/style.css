@@ -216,10 +216,18 @@ address {
 
 }
 
+.nav-pills button {
+
+    color: #0044ba;
+    
+}
+
 .nav-pills {
     --bs-nav-pills-link-active-bg: #f7e09d;
     --bs-nav-pills-link-active-color: black;
 }
+
+
 
 
 
