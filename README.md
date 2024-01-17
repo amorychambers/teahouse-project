@@ -249,6 +249,42 @@ CSS3
 - A simple page to redirect the user back to the homepage when encountering a 404 error. The navigation bar is still accessible if the user chooses to visit another page instead
 
 ![404 error page](design/features/error-page.png)
+
+
+## Testing
+
+### HTML Validation
+
+Validated with the W3C Markup Validation Service
+
+index.html [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Famorychambers.github.io%2Fteahouse-project%2Findex.html)
+
+The validator lists six errors for this page, because in the carousel code snippet from Bootstrap v5.3 it was more practical to use six img elements for the carousel slides, as opposed to using a CSS background. These images do not have an alt text, in the same way any other background image would not, as the relevant textual content and context is already present as a paragraph element overlaying the slide.
+
+our-teas.html [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Famorychambers.github.io%2Fteahouse-project%2Four-teas.html)
+
+No errors or warnings
+
+events.html [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Famorychambers.github.io%2Fteahouse-project%2Fevents.html)
+
+No errors or warnings
+
+contact.html [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Famorychambers.github.io%2Fteahouse-project%2Fcontact.html)
+
+No errors or warnings
+
+### CSS Validation
+
+Validated with the W3C CSS Validation Service
+
+index.html [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Famorychambers.github.io%2Fteahouse-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+The CSS validation service lists 16 errors that are common and distinct to Bootstrap content, which I have used on the site. 
+
+When validating my own style.css document by direct upload, it returns no errors.
+
+![CSS Validator Results](design/css-validation.png)
+
 ## Media Content
 
 https://www.pexels.com/photo/gold-kettle-pouring-hot-water-on-cup-of-tea-230477/
