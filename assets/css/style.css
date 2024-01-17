@@ -279,7 +279,8 @@ form {
 }
 
 .sold-out {
-    color: grey;
+    color: #000;
+    background-color: #f7e09d;
 }
 
 
