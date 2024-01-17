@@ -304,6 +304,7 @@ The accessibility tool lists one contrast error, for low contrast between the pa
 
 404.html [Results](https://wave.webaim.org/report#/https://amorychambers.github.io/teahouse-project/404.html)
 No errors listed
+
 ## Media Content
 
 https://www.pexels.com/photo/gold-kettle-pouring-hot-water-on-cup-of-tea-230477/

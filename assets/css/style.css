@@ -55,7 +55,7 @@ footer {
     padding: 20px 0;
     width: 100%;
     color: white;
-    background: url('../images/hero.jpg') center center/cover no-repeat;
+    background: url('../images/hero.webp') center center/cover no-repeat;
     font-weight: bold;
     font-size: 3em;
 }
@@ -83,7 +83,7 @@ footer {
 /* -------------------- Hero Image -------------------- */
 
 .hero-img {
-    background: url('../images/hero.jpg') center center/cover no-repeat;
+    background: url('../images/hero.webp') center center/cover no-repeat;
     width: 100%;
     height: 40vh;
     margin-bottom: 15px;
@@ -189,7 +189,7 @@ address {
 }
 
 .exterior {
-    background: url("../images/exterior.jpg") center center/contain no-repeat;
+    background: url("../images/exterior.webp") center center/contain no-repeat;
 }
 
 /* -------------------- Our Teas -------------------- */
@@ -202,7 +202,7 @@ address {
     align-items: center;
     background-color: #f7e09d;
     width: 100%;
-    min-height:max-content;
+    min-height: max-content;
 }
 
 .tea>* {
@@ -221,7 +221,7 @@ address {
 .nav-pills button {
 
     color: #0044ba;
-    
+
 }
 
 .nav-pills {
@@ -269,15 +269,15 @@ form {
 }
 
 .event-one {
-    background: url('../images/musicians.jpg') center center/cover no-repeat;
+    background: url('../images/musicians.webp') center center/cover no-repeat;
 }
 
 .event-two {
-    background: url('../images/handmade.jpg') center center/cover no-repeat;
+    background: url('../images/handmade.webp') center center/cover no-repeat;
 }
 
 .event-three {
-    background: url('../images/ceremony.jpg') center center/cover no-repeat;
+    background: url('../images/ceremony.webp') center center/cover no-repeat;
 }
 
 .sold-out {
