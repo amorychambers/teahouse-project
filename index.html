@@ -14,7 +14,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Zen+Maru+Gothic:wght@300&display=swap"
         rel="stylesheet">
-        <link rel="preload" as="image" href="hero.webp">
     <link rel="stylesheet"href="assets/css/style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -56,6 +55,8 @@
     <section>
         <div class="container-fluid">
             <div class="row">
+                <!-- Img element loaded with inline CSS ensuring it isn't displayed. This is to improve the load time and increase performance -->
+                <img src="assets/images/hero.webp" style="display: none">
                 <div class="col hero-img">
                     <h1 class="hero-text">time stands still<br><br>for tea</h1>
                 </div>
@@ -198,7 +199,7 @@
                     <address class="mt-5">
                         123 Inner City<br>Royal Arcade<br>Cardiff<br>CF10 2ZZ
                     </address>
-                    <img src="assets/images/tea-icon.webp" alt="Teacup" class="m-5 teacup">
+                    <img src="assets/images/tea-icon.webp" alt="Teacup" class="m-5 teacup" loading="lazy">
                 </div>
                 <div class="d-none d-lg-block col-6 mt-5 exterior centered">
                     <!-- Div used to display landscape image as responsive background only -->
