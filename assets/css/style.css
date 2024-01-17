@@ -2,7 +2,7 @@
 
 * {
     font-family: 'Zen Maru Gothic', sans-serif;
-    
+
 }
 
 body {
@@ -35,7 +35,7 @@ footer {
     font-size: 1.25em;
 }
 
-.padding > * {
+.padding>* {
     padding: 10px 0;
 }
 
@@ -159,6 +159,7 @@ footer {
     background-color: rgba(0, 0, 0, 0.4);
     z-index: 1;
 }
+
 /* -------------------- Visit Us -------------------- */
 
 
@@ -200,9 +201,9 @@ address {
     background-color: #f7e09d;
 }
 
-.tea > * {
+.tea>* {
     margin-top: 20px;
-} 
+}
 
 
 .tea-leaves {
@@ -228,7 +229,8 @@ input {
     display: block;
 }
 
-form input, textarea {
+form input,
+textarea {
 
     width: 100%;
     margin: 10px 0;
@@ -272,9 +274,17 @@ form {
 
 
 
-/* -------------------- Events -------------------- */
+/* -------------------- 404 -------------------- */
 
 
+.error {
+    min-height: 70vh;
+    font-size: 1.5em;
+}
+
+.error>* {
+    padding: 20px 0;
+}
 
 
 
@@ -285,7 +295,8 @@ form {
 
     /* -------------------- General Styles -------------------- */
 
-    .page-heading, .sub-heading {
+    .page-heading,
+    .sub-heading {
         font-size: 2em;
     }
 
@@ -319,11 +330,12 @@ form {
     }
 
     /* -------------------- Events -------------------- */
-    
-    .events-section p, .events-section td {
+
+    .events-section p,
+    .events-section td {
         font-size: 1.15em;
     }
-    
+
     /* -------------------- Contact -------------------- */
 
     .contact-section {
@@ -332,6 +344,14 @@ form {
 
     form {
         min-height: 50vh;
+    }
+
+    /* -------------------- 404 -------------------- */
+
+
+    .error {
+        min-height: 75vh;
+        font-size: 1.5em;
     }
 }
 
@@ -351,7 +371,9 @@ form {
         padding: 10% 20%;
     }
 
-    .text-sit, .text-share, .text-hello {
+    .text-sit,
+    .text-share,
+    .text-hello {
 
         padding: 5%;
     }
@@ -359,15 +381,23 @@ form {
 
 
     /* -------------------- Our Teas -------------------- */
-    
+
     .tea {
         min-width: 300px;
     }
-    
+
 
     /* -------------------- Contact -------------------- */
 
     form {
         text-align: left;
+    }
+
+    /* -------------------- 404 -------------------- */
+
+
+    .error {
+        min-height: 80vh;
+        font-size: 1.5em;
     }
 }
