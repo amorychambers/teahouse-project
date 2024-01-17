@@ -190,6 +190,50 @@ CSS3
 ![Rotating carousel display of ethos images for tablet and mobile](design/features/ethos-mobile.png)
 
 
+### Visiting Information
+
+- Location of the business listed prominently, inviting users to visit 
+- Embedded interactive Google maps feature further establishes a concrete idea of the business location for the user, allowing them to place it in context of the surroundings and more easily understand how to get there
+- Opening hours listed in a clean, spacious table for ease of comprehension
+- On larger screen sizes, additional image to complete the two-by-two grid structure and make the storefront immediately recognisable 
+
+![Visiting info with the business location and opening hours](design/features/visiting-info.png)
+
+
+### Footer
+
+- Contains the business address to further reinforce the memorability
+- Social media links in a contrasting colour to draw attention and make engaging with the business easy
+- Consistent across all pages to maintain cohesive aesthetic and to maintain focus on visiting and engaging with the business
+- On larger device sizes with more room for a clean presentation, displays company tagline to re-state the company ethos 
+
+![Footer with social links and address](design/features/footer.png)
+
+### Tea Menu
+
+- Selection tabs in pill style to choose between different tea types. Panels prevent clutter and keep the site focused, creating an easier experience reading and navigating the content
+- The current tab is highlighted with an accent colour and font colour change
+- Individual menu items for each tea, for stylistic content separation and contrast
+- Images and descriptions for each tea, giving the user a clear and enticing idea of what to expect
+
+![Tabpanel navigation and tea menu content](design/features/tea-tabpanels.png)
+
+### Upcoming Events
+
+- A clear table layout to show the user what upcoming events they can attend in chronological order
+- On larger screen sizes, an additional box for social media and other contact links, making it easy for the user to quickly check out event related content or make inquiries
+
+![Table of upcoming events](design/features/upcoming-events.png)
+
+### Past Events
+
+- A collection of images and descriptions of previous events, highlighting to the user what kind of events they can look forward to in future and enticing the user to follow the upcoming schedule
+- A variety of event types advertises the utility of the events space being offered for use, and aims at demonstrating to potential tenants the value of booking the space
+
+![Previous event advertisements](design/features/past-events.png)
+
+
+
 ## Media Content
 
 https://www.pexels.com/photo/gold-kettle-pouring-hot-water-on-cup-of-tea-230477/
