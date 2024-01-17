@@ -149,6 +149,7 @@ CSS3
 [Obsidian](https://obsidian.md/)
 [Pexels](https://www.pexels.com/)
 [Imagemin](https://github.com/imagemin/imagemin-cli)
+[cwebp Encoder](https://developers.google.com/speed/webp/docs/cwebp)
 [Font Awesome](https://fontawesome.com/)
 [Favicon](https://favicon.io/)
 [W3C Markup Validation Service](https://validator.w3.org/)
@@ -260,18 +261,23 @@ CSS3
 Validated with the W3C Markup Validation Service
 
 index.html [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Famorychambers.github.io%2Fteahouse-project%2Findex.html)
+
 The validator lists six errors for this page, because in the carousel code snippet from Bootstrap v5.3 it was more practical to use six img elements for the carousel slides, as opposed to using a CSS background. These images do not have an alt text, in the same way any other background image would not, as the relevant textual content and context is already present as a paragraph element overlaying the slide.
 
 our-teas.html [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Famorychambers.github.io%2Fteahouse-project%2Four-teas.html)
+
 No errors or warnings
 
 events.html [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Famorychambers.github.io%2Fteahouse-project%2Fevents.html)
+
 No errors or warnings
 
 contact.html [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Famorychambers.github.io%2Fteahouse-project%2Fcontact.html)
+
 No errors or warnings
 
 404.html [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Famorychambers.github.io%2Fteahouse-project%2F404.html&__cf_chl_tk=BpbdRkXlwJ_fZmzNUC7.62S7_0b7SlerSby3X5jwV6I-1705515733-0-gaNycGzNDWU)
+
 No errors or warnings
 
 ### CSS Validation
@@ -291,19 +297,48 @@ When validating my own style.css document by direct upload, it returns no errors
 Validated with the WAVE Web Accessibility Evaluation Tools
 
 index.html [Results](https://wave.webaim.org/report#/https://amorychambers.github.io/teahouse-project/)
+
 The accessibility tool lists six errors for missing alt text on images; as discussed above this is a consequence of the Bootstrap carousel slides using img elements as a background rather than using a CSS property, which do not need alt texts. I am confident that these errors are therefore not a legitimate accessibility concern, as much as they are a quirk of the Bootstrap carousel code snippet I have chosen to use. The other four contrast errors are similarly caused by the use of an img element as a background rather than a CSS background; the accessibility tool is checking the contrast of the text against the background colour of the site, as opposed to the actual background colour of the img element used. Whilst this presents a valid learning experience going forward to be more mindful of accessibility when using code snippets, in this project I have decided that as it does not present an actual accessibility error on the page, it does not need to be corrected.
 
 our-teas.html [Results](https://wave.webaim.org/report#/https://amorychambers.github.io/teahouse-project/our-teas.html)
+
 The accessibility tool lists one contrast error, for low contrast between the page heading and the background image. Addressed by increasing the font size and font weight to be more readable.
 
 events.html [Results](https://wave.webaim.org/report#/https://amorychambers.github.io/teahouse-project/events.html)
+
 The accessibility tool lists one contrast error, for low contrast between the page heading and the background image. Addressed by increasing the font size and font weight to be more readable.
 
 contact.html [Results](https://wave.webaim.org/report#/https://amorychambers.github.io/teahouse-project/contact.html)
+
 The accessibility tool lists one contrast error, for low contrast between the page heading and the background image. Addressed by increasing the font size and font weight to be more readable.
 
 404.html [Results](https://wave.webaim.org/report#/https://amorychambers.github.io/teahouse-project/404.html)
+
 No errors listed
+
+
+### Performance
+
+Performance testing by Google Lighthouse in Google Chrome Developer Tools
+
+The maximum performance I could achieve for the index and our-teas pages using the minimal Bootstrap CSS and JavaScript files was 87 and 84. The Bootstrap framework was incredibly useful and efficient in creating the site, but the large stylesheets it has to load create a long render delay. I was able to improve performance on all pages by moving the Font Awesome script from the head of the HTML to the bottom of the body, and by using an undisplayed img element to force the browser to load the background hero image faster, as this was the LCP.
+
+index.html
+![Homepage performance](design/performance/index-performance.png)
+To further improve performance, I used the lazy loading attribute on the embedded Google maps element and on the desktop image element at the bottom of the page.
+
+our-teas.html
+![Our Teas performance](design/performance/our-teas-performance.png)
+
+events.html
+![Events performance](design/performance/events-performance.png)
+
+contact.html
+![Contact performance](design/performance/contact-performance.png)
+
+404.html
+![404 performance](design/performance/404-performance.png)
+
 
 ## Media Content
 
@@ -346,5 +381,5 @@ Validation
 ## Credits
 
 https://kittygiraudel.com/2020/12/10/accessible-icon-links/
-
+https://wpspeedmatters.com/speed-up-background-images/
 
