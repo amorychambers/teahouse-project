@@ -1,4 +1,4 @@
-# UX Design
+# UX Design Planning
 
 ## Project Idea
 

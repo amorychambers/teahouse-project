@@ -98,6 +98,7 @@ My layout decisions were informed by development principles of presenting clear 
 I have chosen an analogous colour scheme for the site, emphasising a simplicity and gentle atmosphere that matches the brand image. The colours chosen are muted and warm pastel colours, intended to be soothing, with a darker accent colour to create some contrast and draw attention to structural layout information. I chose a yellow analogous colour scheme for a positive and relaxing tone.
 
 Main theme colour: #fbefcc
+
 Accent theme colour: #f7e09d
 
 ### Fonts
@@ -105,6 +106,7 @@ Accent theme colour: #f7e09d
 My two fonts for the website were selected from Google Fonts' sans-serif collection. I wanted to use fonts that presented a very clean, spacious look for the headings and text. The fonts I chose were those that I felt best matched the cohesive brand theming of the website and the accessibility focused design principles that informed the entire design process. I chose a more stylistic, lightweight typeface for the headings as the text is both larger, and thus easier to read, and more prominent as an aesthetic presence on the page.
 
 [Zen Maru Gothic](https://fonts.google.com/specimen/Zen+Maru+Gothic)
+
 [Poiret One](https://fonts.google.com/specimen/Poiret+One?query=poiret+one)
 
 ### Structure 
@@ -127,7 +129,7 @@ The site consists of four different pages and a unique 404 error page.
 4. Contact - a contact form for questions and business inquiries 
 
 
-## Wireframes
+### Wireframes
 
 
 ## Technologies 
@@ -155,7 +157,38 @@ CSS3
 [WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/)
 
 
-## Wireframes
+## Features
+
+### Header and Navigation
+
+- The navigation bar is featured on every page to allow consistent navigation around the site
+- All pages are linked with the currently active page highlighted with a dark font colour
+- On larger screen sizes, the header responsively adds a stylistic page title to the header. On smaller screen sizes this is not displayed to create a cleaner look without clutter
+- On smaller screen sizes, the responsive navigation bar collapses into an easy-to-use hamburger menu
+
+
+![Desktop header](design/features/header-desktop.png)
+
+![Mobile header](design/features/header-mobile.png)
+
+### Landing Page
+
+- Main feature is a hero image with text that aims to immediately present the user with the brand image of a relaxing, sophisticated establishment
+- Text spacing responsively adjusts to different screen sizes for consistent styling across all devices
+
+![Hero image](design/features/hero-image.png)
+
+### Company Ethos
+
+- Three images with overlaid text that aims to give the user a clear idea of what the business is offering and the unique value it has
+- Images contribute to the brand image of cultural appreciation, text conveys each of the three main points of company ethos 
+- On larger screen sizes these are presented in three static columns, creating a cohesive and clean visual, and allowing the user to read at leisure
+- On smaller screen sizes these images are presented on an automatically rotating carousel, to grab the user's attention and display all three without taking up three times the screen space on smaller devices. The carousel plays automatically upon loading the page but pauses on hover to make the content more accessible 
+
+![Three column display of ethos images for desktop](design/features/ethos-desktop.png)
+
+![Rotating carousel display of ethos images for tablet and mobile](design/features/ethos-mobile.png)
+
 
 ## Media Content
 
