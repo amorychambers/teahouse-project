@@ -199,7 +199,8 @@ address {
     text-align: center;
     align-items: center;
     background-color: #f7e09d;
-    width: min-content;
+    width: 100%;
+    min-height:max-content;
 }
 
 .tea>* {
@@ -384,7 +385,8 @@ form {
     /* -------------------- Our Teas -------------------- */
 
     .tea {
-        min-width: 300px;
+        width: 300px;
+        height: 580px;
     }
 
 
