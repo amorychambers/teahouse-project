@@ -56,6 +56,8 @@ footer {
     width: 100%;
     color: white;
     background: url('../images/hero.jpg') center center/cover no-repeat;
+    font-weight: bold;
+    font-size: 3em;
 }
 
 .sub-heading {
@@ -306,10 +308,6 @@ form {
 
     /* -------------------- General Styles -------------------- */
 
-    .page-heading,
-    .sub-heading {
-        font-size: 2em;
-    }
 
     .aside-text {
         font-size: 1.15em;
