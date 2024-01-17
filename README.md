@@ -148,6 +148,7 @@ CSS3
 [Canva](https://www.canva.com/colors/color-wheel/)
 [Obsidian](https://obsidian.md/)
 [Pexels](https://www.pexels.com/)
+[Imagemin](https://github.com/imagemin/imagemin-cli)
 [Font Awesome](https://fontawesome.com/)
 [Favicon](https://favicon.io/)
 [W3C Markup Validation Service](https://validator.w3.org/)
@@ -293,13 +294,16 @@ index.html [Results](https://wave.webaim.org/report#/https://amorychambers.githu
 The accessibility tool lists six errors for missing alt text on images; as discussed above this is a consequence of the Bootstrap carousel slides using img elements as a background rather than using a CSS property, which do not need alt texts. I am confident that these errors are therefore not a legitimate accessibility concern, as much as they are a quirk of the Bootstrap carousel code snippet I have chosen to use. The other four contrast errors are similarly caused by the use of an img element as a background rather than a CSS background; the accessibility tool is checking the contrast of the text against the background colour of the site, as opposed to the actual background colour of the img element used. Whilst this presents a valid learning experience going forward to be more mindful of accessibility when using code snippets, in this project I have decided that as it does not present an actual accessibility error on the page, it does not need to be corrected.
 
 our-teas.html [Results](https://wave.webaim.org/report#/https://amorychambers.github.io/teahouse-project/our-teas.html)
-The accessibility tool lists one error, for low contrast between the page heading and the background image. 
+The accessibility tool lists one contrast error, for low contrast between the page heading and the background image. Addressed by increasing the font size and font weight to be more readable.
 
 events.html [Results](https://wave.webaim.org/report#/https://amorychambers.github.io/teahouse-project/events.html)
+The accessibility tool lists one contrast error, for low contrast between the page heading and the background image. Addressed by increasing the font size and font weight to be more readable.
 
 contact.html [Results](https://wave.webaim.org/report#/https://amorychambers.github.io/teahouse-project/contact.html)
+The accessibility tool lists one contrast error, for low contrast between the page heading and the background image. Addressed by increasing the font size and font weight to be more readable.
 
 404.html [Results](https://wave.webaim.org/report#/https://amorychambers.github.io/teahouse-project/404.html)
+No errors listed
 ## Media Content
 
 https://www.pexels.com/photo/gold-kettle-pouring-hot-water-on-cup-of-tea-230477/
