@@ -261,23 +261,18 @@ CSS3
 Validated with the W3C Markup Validation Service
 
 index.html [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Famorychambers.github.io%2Fteahouse-project%2Findex.html)
-
 The validator lists six errors for this page, because in the carousel code snippet from Bootstrap v5.3 it was more practical to use six img elements for the carousel slides, as opposed to using a CSS background. These images do not have an alt text, in the same way any other background image would not, as the relevant textual content and context is already present as a paragraph element overlaying the slide.
 
 our-teas.html [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Famorychambers.github.io%2Fteahouse-project%2Four-teas.html)
-
 No errors or warnings
 
 events.html [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Famorychambers.github.io%2Fteahouse-project%2Fevents.html)
-
 No errors or warnings
 
 contact.html [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Famorychambers.github.io%2Fteahouse-project%2Fcontact.html)
-
 No errors or warnings
 
 404.html [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Famorychambers.github.io%2Fteahouse-project%2F404.html&__cf_chl_tk=BpbdRkXlwJ_fZmzNUC7.62S7_0b7SlerSby3X5jwV6I-1705515733-0-gaNycGzNDWU)
-
 No errors or warnings
 
 ### CSS Validation
@@ -339,6 +334,23 @@ contact.html
 404.html
 ![404 performance](design/performance/404-performance.png)
 
+
+
+### Compatibility 
+
+The website was tested and proved fully functional on the following devices;
+
+- Macbook Pro
+- Windows 10 PC
+- iPhone 13
+
+The website was tested and proved fully functional on the following browsers;
+
+- Google Chrome
+- Safari
+- Firefox
+- Opera
+- Microsoft Edge
 
 ## Media Content
 
