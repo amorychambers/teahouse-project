@@ -1,6 +1,6 @@
 # Tea & Time Teahouse
 
-![Website homepage on different devices](design/am-i-responsive.png)
+![Website homepage on different devices](docs/am-i-responsive.png)
 
 Developed by Benedict Amory Chambers
 ## Table of Contents
@@ -170,11 +170,11 @@ CSS3
 
 [W3C Markup Validation Service](https://validator.w3.org/)
 
-[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)]
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
 
-[Accessible Color Generator](https://www.learnui.design/tools/accessible-color-generator.html)
+[Accessible Color Generator](https://www.learnui.docs/tools/accessible-color-generator.html)
 
 [Am I Responsive?](https://ui.dev/amiresponsive)
 
@@ -191,9 +191,9 @@ CSS3
 - On smaller screen sizes, the responsive navigation bar collapses into an easy-to-use hamburger menu
 
 
-![Desktop header](design/features/header-desktop.png)
+![Desktop header](docs/features/header-desktop.png)
 
-![Mobile header](design/features/header-mobile.png)
+![Mobile header](docs/features/header-mobile.png)
 
 User stories: 12
 
@@ -202,7 +202,7 @@ User stories: 12
 - Main feature is a hero image with text that aims to immediately present the user with the brand image of a relaxing, sophisticated establishment
 - Text spacing responsively adjusts to different screen sizes for consistent styling across all devices
 
-![Hero image](design/features/hero-image.png)
+![Hero image](docs/features/hero-image.png)
 
 User stories: 11
 
@@ -213,9 +213,9 @@ User stories: 11
 - On larger screen sizes these are presented in three static columns, creating a cohesive and clean visual, and allowing the user to read at leisure
 - On smaller screen sizes these images are presented on an automatically rotating carousel, to grab the user's attention and display all three without taking up three times the screen space on smaller devices. The carousel plays automatically upon loading the page but pauses on hover to make the content more accessible 
 
-![Three column display of ethos images for desktop](design/features/ethos-desktop.png)
+![Three column display of ethos images for desktop](docs/features/ethos-desktop.png)
 
-![Rotating carousel display of ethos images for tablet and mobile](design/features/ethos-mobile.png)
+![Rotating carousel display of ethos images for tablet and mobile](docs/features/ethos-mobile.png)
 
 User stories: 1, 11, 13
 
@@ -225,7 +225,7 @@ User stories: 1, 11, 13
 - Opening hours listed in a clean, spacious table for ease of comprehension
 - On larger screen sizes, additional image to complete the two-by-two grid structure and make the storefront immediately recognisable 
 
-![Visiting info with the business location and opening hours](design/features/visiting-info.png)
+![Visiting info with the business location and opening hours](docs/features/visiting-info.png)
 
 User stories: 2, 15
 
@@ -233,7 +233,7 @@ User stories: 2, 15
 
 - Embedded interactive Google maps feature further establishes a concrete idea of the business location for the user, allowing them to place it in context of the surroundings and more easily understand how to get there
 
-![Embedded Google maps screenshot](design/features/map.png)
+![Embedded Google maps screenshot](docs/features/map.png)
 
 User stories: 2, 15
 
@@ -245,7 +245,7 @@ User stories: 2, 15
 - Consistent across all pages to maintain cohesive aesthetic and to maintain focus on visiting and engaging with the business
 - On larger device sizes with more room for a clean presentation, displays company tagline to re-state the company ethos 
 
-![Footer with social links and address](design/features/footer.png)
+![Footer with social links and address](docs/features/footer.png)
 
 User stories: 2, 5, 6, 14, 15
 
@@ -256,7 +256,7 @@ User stories: 2, 5, 6, 14, 15
 - Individual menu items for each tea, for stylistic content separation and contrast
 - Images and descriptions for each tea, giving the user a clear and enticing idea of what to expect
 
-![Tabpanel navigation and tea menu content](design/features/tea-tabpanels.png)
+![Tabpanel navigation and tea menu content](docs/features/tea-tabpanels.png)
 
 User stories: 1, 3, 10, 13
 
@@ -265,7 +265,7 @@ User stories: 1, 3, 10, 13
 - A clear table layout to show the user what upcoming events they can attend in chronological order
 - On larger screen sizes, an additional box for social media and other contact links, making it easy for the user to quickly check out event related content or make inquiries
 
-![Table of upcoming events](design/features/upcoming-events.png)
+![Table of upcoming events](docs/features/upcoming-events.png)
 
 User stories: 4, 5, 8, 13
 
@@ -274,7 +274,7 @@ User stories: 4, 5, 8, 13
 - A collection of images and descriptions of previous events, highlighting to the user what kind of events they can look forward to in future and enticing the user to follow the upcoming schedule
 - A variety of event types advertises the utility of the events space being offered for use, and aims at demonstrating to potential tenants the value of booking the space
 
-![Previous event advertisements](design/features/past-events.png)
+![Previous event advertisements](docs/features/past-events.png)
 
 User stories: 4, 7, 9, 13
 
@@ -285,7 +285,7 @@ User stories: 4, 7, 9, 13
 - Easy-to-access inquiries for parties who are looking to book the events space
 - Form currently posts to a Code Institute formdump page
 
-![Contact form](design/features/contact-form.png)
+![Contact form](docs/features/contact-form.png)
 
 User stories: 6, 7, 9, 14
 
@@ -293,7 +293,7 @@ User stories: 6, 7, 9, 14
 
 - A simple page to redirect the user back to the homepage when encountering a 404 error. The navigation bar is still accessible if the user chooses to visit another page instead
 
-![404 error page](design/features/error-page.png)
+![404 error page](docs/features/error-page.png)
 
 
 ## Testing
@@ -332,7 +332,7 @@ The CSS validation service lists 16 errors that are common and distinct to Boots
 
 When validating my own style.css document by direct upload, it returns no errors.
 
-![CSS Validator Results](design/css-validation.png)
+![CSS Validator Results](docs/css-validation.png)
 
 ### Accessibility
 
@@ -366,20 +366,20 @@ Performance testing by Google Lighthouse in Google Chrome Developer Tools
 The maximum performance I could achieve for the index and our-teas pages using the minimal Bootstrap CSS and JavaScript files was 87 and 84. The Bootstrap framework was incredibly useful and efficient in creating the site, but the large stylesheets it has to load create a long render delay. I was able to improve performance on all pages by moving the Font Awesome script from the head of the HTML to the bottom of the body, and by using an undisplayed img element to force the browser to load the background hero image faster, as this was the LCP.
 
 index.html
-![Homepage performance](design/performance/index-performance.png)
+![Homepage performance](docs/performance/index-performance.png)
 To further improve performance, I used the lazy loading attribute on the embedded Google maps element and on the desktop image element at the bottom of the page.
 
 our-teas.html
-![Our Teas performance](design/performance/our-teas-performance.png)
+![Our Teas performance](docs/performance/our-teas-performance.png)
 
 events.html
-![Events performance](design/performance/events-performance.png)
+![Events performance](docs/performance/events-performance.png)
 
 contact.html
-![Contact performance](design/performance/contact-performance.png)
+![Contact performance](docs/performance/contact-performance.png)
 
 404.html
-![404 performance](design/performance/404-performance.png)
+![404 performance](docs/performance/404-performance.png)
 
 
 
