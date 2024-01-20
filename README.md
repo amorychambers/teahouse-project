@@ -181,7 +181,7 @@ CSS3
 
 ![Hero image](design/features/hero-image.png)
 
-### Company Ethos
+### Ethos Images
 
 - Three images with overlaid text that aims to give the user a clear idea of what the business is offering and the unique value it has
 - Images contribute to the brand image of cultural appreciation, text conveys each of the three main points of company ethos 
@@ -196,7 +196,6 @@ CSS3
 ### Visiting Information
 
 - Location of the business listed prominently, inviting users to visit 
-- Embedded interactive Google maps feature further establishes a concrete idea of the business location for the user, allowing them to place it in context of the surroundings and more easily understand how to get there
 - Opening hours listed in a clean, spacious table for ease of comprehension
 - On larger screen sizes, additional image to complete the two-by-two grid structure and make the storefront immediately recognisable 
 

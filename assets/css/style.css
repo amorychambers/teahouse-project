@@ -383,7 +383,7 @@ form {
     .text-sit,
     .text-share,
     .text-hello {
-
+        font-size: 1.5em;
         padding: 5%;
     }
 
