@@ -473,8 +473,58 @@ The website was tested and proved fully functional on the following browsers;
 | Footer | Scroll down to see the footer on all pages | Find the business address | Works as expected |
 
 
+## Bugs
 
+1. I ran into an issue with the alignment of the Our Teas panels, wherein I could not get each div for each individual tea to align properly on desktop, regardless of the size of description. For safer and clearer version control I moved to a new branch to experiment. At first I attempted to use fixed height divs but this created another issue wherein the divs no longer lined up vertically on mobile. I reverted to the original to remove any changes made during the first attempt, and secondly tried to solve the problem using CSS alignment. I made all the divs display as inline-block elements to try and use flexbox to line them up properly and responsively in the Bootstrap grid on all devices. This did not work as the divs no longer held together in an equally spaced and clean grid system, and I could not make them line up vertically with the description alongside the image, uniquely to the tablet view. I solved the problem by placing each individual tea menu item in its own row as opposed to columns within a row, giving both the image and description its own Bootstrap column, and lining them up differently based on screen size. This allowed me to use a combination of Bootstrap alignment classes and media queries to create responsive divs for each menu item, that can easily change layout on different sizes, and use a fixed height on desktop for a cleaner, equal aesthetic. 
 
+##### Old Code 
+
+```
+<div class="row tea mx-3">
+
+<div class="col">
+
+<img src="assets/images/oolong1.webp" class="tea-leaves" alt="Oolong tea leaves">
+
+<h3>Da Hong Pao</h3>
+
+<p>One of the most famous oolong teas, and for good reason. This tea is prized in
+
+China for its uniquely prominent mineral taste, and a rich, malty, roasted
+
+flavour. Perfect for the colder seasons!</p>
+
+</div>
+
+</div>
+
+```
+
+##### New Code
+
+```
+<div class="row tea align-top d-lg-inline-block mx-lg-3">
+
+<div class="col-sm-6 col-lg-12">
+
+<img src="assets/images/oolong1.webp" class="tea-leaves" alt="Oolong tea leaves">
+
+</div>
+
+<div class="col-sm-6 col-lg-12">
+
+<h3>Da Hong Pao <span class="badge bg-danger">New!</span></h3>
+
+<p>One of the most famous oolong teas, and for good reason. This tea is prized in
+
+China for its uniquely prominent mineral taste, and a rich, malty, roasted
+
+flavour. Perfect for the colder seasons!</p>
+
+</div>
+
+</div>
+```
 ## Media Content
 
 https://www.pexels.com/photo/gold-kettle-pouring-hot-water-on-cup-of-tea-230477/
@@ -506,12 +556,6 @@ Bootstrap Emmett extension
 https://stackoverflow.com/questions/39817783/how-to-change-content-substitute-text-images-etc-on-different-resolutions
 https://stackoverflow.com/questions/6046110/styling-form-with-label-above-inputs
 https://stackoverflow.com/questions/66040890/trying-to-get-a-dark-overlay-on-my-bootstrap-carousel-image-video
-## Testing
-Lighthouse in devtools
-Validation
-## Bugs
-
-## Deployment 
 
 ## Credits
 
