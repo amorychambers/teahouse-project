@@ -538,7 +538,6 @@ The only other bugs encountered during the project were firstly a minor text siz
 ### Media Content
 
 In this project I have used stock images to represent what might more normally be custom content for a business. The majority of these stock images were downloaded from and used license-free from [Pexels](pexels.com)
-
 #### Homepage
 
 [Hero image, Mykola Osmachko](https://www.pexels.com/photo/gold-kettle-pouring-hot-water-on-cup-of-tea-230477/)
@@ -546,35 +545,48 @@ In this project I have used stock images to represent what might more normally b
 ['Sit' ethos background, Mykola Osmachko](https://www.pexels.com/photo/white-ceramic-teapot-beside-cup-with-leaves-229493/)
 ['Share' ethos background, Tima Miroshnichenko](https://www.pexels.com/photo/food-wood-cup-mug-6545448/)
 [Teahouse exterior image, Mingche Lee](https://www.pexels.com/photo/exterior-of-old-traditional-asian-cafe-4070930/)
+[Teacup icon, UX Wing](https://uxwing.com/coffee-icon/)
 
 #### Our Teas
 
 [Da Hong Pao oolong, Eva Bronzini](https://www.pexels.com/photo/close-up-shot-of-dried-tea-leaves-6087517/)
 [Phoenix Honey Orchid oolong, Eva Bronzini](https://www.pexels.com/photo/close-up-shot-of-dried-tea-leaves-6087518/)
-https://www.pexels.com/photo/close-up-shot-of-dried-tea-leaves-6087604/
-https://www.pexels.com/photo/pile-of-dried-leaves-5988177/
-https://www.pexels.com/photo/close-up-shot-of-dried-tea-leaves-6087518/
-https://www.pexels.com/photo/dried-tea-leaves-5501118/
-https://www.pexels.com/photo/photo-of-dried-chamomile-flowers-6103501/
-https://www.pexels.com/photo/dried-petals-of-purple-flowers-in-close-up-shot-6086886/
-https://www.pexels.com/photo/close-up-shot-of-rooibos-tea-6087602/
-https://www.pexels.com/photo/food-healthy-dark-dry-6087603/
-https://www.pexels.com/photo/a-pile-of-dried-green-leaves-6103121/
-https://www.pexels.com/photo/a-woman-holding-a-teapot-8952398/
-https://www.pexels.com/photo/asian-couple-with-guitar-in-park-5985573/
-https://www.pexels.com/photo/anonymous-woman-buying-traditional-handmade-souvenirs-in-market-4072329/
-https://www.pexels.com/photo/exterior-of-old-traditional-asian-cafe-4070930/
+[Roasted Tie Guan Yin oolong, Eva Bronzini](https://www.pexels.com/photo/close-up-shot-of-dried-tea-leaves-6087604/)
+[Genmaicha green, Eva Bronzini](https://www.pexels.com/photo/food-healthy-dark-dry-6087603/)
+[Biluochun green, Eva Bronzini](https://www.pexels.com/photo/a-pile-of-dried-green-leaves-6103121/)
+[Silver Needle white, Eva Bronzini](https://www.pexels.com/photo/pile-of-dried-leaves-5988177/)
+[White Peony white, Eva Bronzini](https://www.pexels.com/photo/close-up-shot-of-dried-tea-leaves-6087518/)
+[Earl Grey white, Eva Bronzini](https://www.pexels.com/photo/dried-tea-leaves-5501118/)
+[Chamomile herbal, Eva Bronzini](https://www.pexels.com/photo/photo-of-dried-chamomile-flowers-6103501/)
+[Rosehip herbal, Eva Bronzini](https://www.pexels.com/photo/dried-petals-of-purple-flowers-in-close-up-shot-6086886/)
+[Rooibos herbal, Eva Bronzini](https://www.pexels.com/photo/close-up-shot-of-rooibos-tea-6087602/)
+
+#### Events 
+
+[Musician Event, Tiến Trần](https://www.pexels.com/photo/asian-couple-with-guitar-in-park-5985573/)
+[Craft Market event, Mew wy.](https://www.pexels.com/photo/anonymous-woman-buying-traditional-handmade-souvenirs-in-market-4072329/)
+[Tea Mastery Visit event, Ivan Samkov](https://www.pexels.com/photo/a-woman-holding-a-teapot-8952398/)
+
+
+
+### External Code
+
+- Initial template with .devcontainer folder cloned from Code Institute [ci-full-template](https://github.com/Code-Institute-Org/ci-full-template)
+- Initial boilerplate HTML head from [Emmet extension](https://emmet.io/) in Visual Studio Code
+- Code snippet for navigation bar from [Bootstrap v5.3 documentation](https://getbootstrap.com/docs/5.3/components/navbar/)
+- Code snippet for carousel from [Bootstrap v5.3 documentation](https://getbootstrap.com/docs/5.3/components/carousel/)
+- Code snippet for tabpanels from [Bootstrap v5.3 documentation](https://getbootstrap.com/docs/5.3/components/navs-tabs/)
+- Advice for adding a dark overlay to Bootstrap's carousel slides taken from Stack Overflow user [Minal Chauhan](https://stackoverflow.com/questions/66040890/trying-to-get-a-dark-overlay-on-my-bootstrap-carousel-image-video) 
+- Advice for making icon links more accessible taken from [Kitty Giraudel](https://kittygiraudel.com/2020/12/10/accessible-icon-links/)
+- Advice to add an undisplayed image to the DOM to improve the render delay on images taken from [Gijo Varghese, WP Speed Matters](https://wpspeedmatters.com/speed-up-background-images/)
+
+
 ## Deployment
 
-## External Code
-Cloned from Code Institute Template
-Bootstrap Emmett extension
-https://stackoverflow.com/questions/39817783/how-to-change-content-substitute-text-images-etc-on-different-resolutions
-https://stackoverflow.com/questions/6046110/styling-form-with-label-above-inputs
-https://stackoverflow.com/questions/66040890/trying-to-get-a-dark-overlay-on-my-bootstrap-carousel-image-video
+
 
 ## Credits
 
-https://kittygiraudel.com/2020/12/10/accessible-icon-links/
-https://wpspeedmatters.com/speed-up-background-images/
+
+
 
