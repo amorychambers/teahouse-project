@@ -500,7 +500,7 @@ Additionally, it has been tested on all device options using Google Chrome Devel
 | Ethos Images | Open homepage | Ethos images present a welcoming and inviting business | Works as expected |
 | Tea Menu | Click on Our Teas page in navigation bar | Browse through tabs of different teas on offer with enticing descriptions | Works as expected |
 | Past Events | Click on Events page in navigation bar | User can read about the different kinds of exciting events that have happened previously | Works as expected |
-| Upcoming Events | Click on Events page in navigation bar | User can see what upcoming events they are able to attend |  |
+| Upcoming Events | Click on Events page in navigation bar | User can see what upcoming events they are able to attend | Works as expected |
 
 14. As the site owner, I want users to feel welcome and encouraged to contact and engage with the business if they have any questions or issues 
 
@@ -518,9 +518,10 @@ Additionally, it has been tested on all device options using Google Chrome Devel
 | Footer | Scroll down to see the footer on all pages | Find the business address | Works as expected |
 
 
+
 ## Bugs
 
-1. I ran into an issue with the alignment of the Our Teas panels, wherein I could not get each div for each individual tea to align properly on desktop, regardless of the size of description. For safer and clearer version control I moved to a new branch to experiment. At first I attempted to use fixed height divs but this created another issue wherein the divs no longer lined up vertically on mobile. I reverted to the original to remove any changes made during the first attempt, and secondly tried to solve the problem using CSS alignment. I made all the divs display as inline-block elements to try and use flexbox to line them up properly and responsively in the Bootstrap grid on all devices. This did not work as the divs no longer held together in an equally spaced and clean grid system, and I could not make them line up vertically with the description alongside the image, uniquely to the tablet view. I attempted to use the min-content and max-content CSS properties to create equally sized divs for each tea on desktop, but this further complicated the layout problem on tablet styles. I solved the problem by placing each individual tea menu item in its own row as opposed to columns within a row, giving both the image and description its own Bootstrap column, and lining them up differently based on screen size. This allowed me to use a combination of Bootstrap alignment classes and media queries to create responsive divs for each menu item, that can easily change layout on different sizes, and use a fixed height on desktop for a cleaner, equal aesthetic. 
+1. I ran into an issue with the alignment of the Our Teas panels, wherein I could not get each div for each individual tea to align properly on desktop, regardless of the size of description. For safer and clearer version control I moved to a new branch to experiment. At first I attempted to use fixed height inline divs but this created another issue wherein the divs no longer lined up vertically on mobile. I reverted to the original to remove any changes made during the first attempt, and secondly tried to solve the problem using CSS alignment. I made all the divs display as inline-block elements to try and use flexbox to line them up properly and responsively in the Bootstrap grid on all devices. This did not work as the divs no longer held together in an equally spaced and clean grid system, and I could not make them line up vertically with the description alongside the image, unique to the tablet view. I attempted to use the min-content and max-content CSS properties to create equally sized divs for each tea on desktop, but this further complicated the layout problem on tablet styles. I solved the problem by placing each individual tea menu item in its own row as opposed to columns within a row, giving both the image and description its own Bootstrap column, and lining them up differently based on screen size. This allowed me to use a combination of Bootstrap alignment classes and media queries to create responsive divs for each menu item, that can easily change layout on different sizes, and use a fixed height on desktop for a cleaner, equal aesthetic. 
 
 ##### Old Code 
 
@@ -575,6 +576,7 @@ flavour. Perfect for the colder seasons!</p>
 The only other bugs encountered during the project were firstly a minor text size and overflow issue that was resolved by switching from fixed pixel font sizes to a more responsive em size unit, and layout mismatches that were resolved by making small changes within the Bootstrap grid layout. 
 
 
+
 ## Credits
 
 ### Media Content
@@ -583,30 +585,47 @@ In this project I have used stock images to represent what might more normally b
 #### Homepage
 
 [Hero image, Mykola Osmachko](https://www.pexels.com/photo/gold-kettle-pouring-hot-water-on-cup-of-tea-230477/)
+
 ['Say Hello' ethos background, Angela Roma](https://www.pexels.com/photo/red-envelopes-against-sprig-of-blooming-prunus-and-tea-7363760/)
+
 ['Sit' ethos background, Mykola Osmachko](https://www.pexels.com/photo/white-ceramic-teapot-beside-cup-with-leaves-229493/)
+
 ['Share' ethos background, Tima Miroshnichenko](https://www.pexels.com/photo/food-wood-cup-mug-6545448/)
+
 [Teahouse exterior image, Mingche Lee](https://www.pexels.com/photo/exterior-of-old-traditional-asian-cafe-4070930/)
+
 [Teacup icon, UX Wing](https://uxwing.com/coffee-icon/)
 
 #### Our Teas
 
 [Da Hong Pao oolong, Eva Bronzini](https://www.pexels.com/photo/close-up-shot-of-dried-tea-leaves-6087517/)
+
 [Phoenix Honey Orchid oolong, Eva Bronzini](https://www.pexels.com/photo/close-up-shot-of-dried-tea-leaves-6087518/)
+
 [Roasted Tie Guan Yin oolong, Eva Bronzini](https://www.pexels.com/photo/close-up-shot-of-dried-tea-leaves-6087604/)
+
 [Genmaicha green, Eva Bronzini](https://www.pexels.com/photo/food-healthy-dark-dry-6087603/)
+
 [Biluochun green, Eva Bronzini](https://www.pexels.com/photo/a-pile-of-dried-green-leaves-6103121/)
+
 [Silver Needle white, Eva Bronzini](https://www.pexels.com/photo/pile-of-dried-leaves-5988177/)
+
 [White Peony white, Eva Bronzini](https://www.pexels.com/photo/close-up-shot-of-dried-tea-leaves-6087518/)
+
 [Earl Grey white, Eva Bronzini](https://www.pexels.com/photo/dried-tea-leaves-5501118/)
+
 [Chamomile herbal, Eva Bronzini](https://www.pexels.com/photo/photo-of-dried-chamomile-flowers-6103501/)
+
 [Rosehip herbal, Eva Bronzini](https://www.pexels.com/photo/dried-petals-of-purple-flowers-in-close-up-shot-6086886/)
+
 [Rooibos herbal, Eva Bronzini](https://www.pexels.com/photo/close-up-shot-of-rooibos-tea-6087602/)
 
 #### Events 
 
 [Musician Event, Tiến Trần](https://www.pexels.com/photo/asian-couple-with-guitar-in-park-5985573/)
+
 [Craft Market event, Mew wy.](https://www.pexels.com/photo/anonymous-woman-buying-traditional-handmade-souvenirs-in-market-4072329/)
+
 [Tea Mastery Visit event, Ivan Samkov](https://www.pexels.com/photo/a-woman-holding-a-teapot-8952398/)
 
 
@@ -621,6 +640,7 @@ In this project I have used stock images to represent what might more normally b
 - Advice for adding a dark overlay to Bootstrap's carousel slides taken from Stack Overflow user [Minal Chauhan](https://stackoverflow.com/questions/66040890/trying-to-get-a-dark-overlay-on-my-bootstrap-carousel-image-video) 
 - Advice for making icon links more accessible taken from [Kitty Giraudel](https://kittygiraudel.com/2020/12/10/accessible-icon-links/)
 - Advice to add an undisplayed image to the DOM to improve the render delay on images taken from [Gijo Varghese, WP Speed Matters](https://wpspeedmatters.com/speed-up-background-images/)
+
 
 
 ## Deployment
@@ -639,6 +659,7 @@ To deploy on GitHub pages:
 3. Select 'Pages' in the *Code and Automation* section of the Settings menu
 4. Choose to 'Deploy from a branch' and select the main branch
 5. Click Save to deploy to GitHub pages from the main branch of the repository
+
 
 
 ## Acknowledgements
