@@ -25,8 +25,8 @@
     5. [Compatibility](#compatibility)
     6. [Testing user stories](#testing-user-stories)
 7. [Bugs](#bugs)
-8. [Deployment](#deployment)
-9. [Credits](#credits)
+8. [Credits](#credits)
+9. [Deployment](#deployment)
 10. [Acknowledgements](#acknowledgements)
 
 ## Project Goals
@@ -530,9 +530,6 @@ flavour. Perfect for the colder seasons!</p>
 The only other bugs encountered during the project were firstly a minor text size and overflow issue that was resolved by switching from fixed pixel font sizes to a more responsive em size unit, and layout mismatches that were resolved by making small changes within the Bootstrap grid layout. 
 
 
-## Deployment
-
-
 ## Credits
 
 ### Media Content
@@ -583,9 +580,29 @@ In this project I have used stock images to represent what might more normally b
 
 ## Deployment
 
+The website is deployed on Github Pages.
+
+To fork the repository:
+
+1. Navigate to the GitHub repository [here](https://github.com/amorychambers/teahouse-project)
+2. Click on the 'Fork' option towards the top of the page
+
+To deploy on GitHub pages:
+
+1. Navigate to the GitHub repository [here](https://github.com/amorychambers/teahouse-project)
+2. Select 'Settings' from the ribbon at the top of the page
+3. Select 'Pages' in the *Code and Automation* section of the Settings menu
+4. Choose to 'Deploy from a branch' and select the main branch
+5. Click Save to deploy to GitHub pages from the main branch of the repository
 
 
-## Credits
+## Acknowledgements
+
+For their support and advice, I would like to thank a few people who contributed to the completion of this project.
+
+- My classmates from Coleg Y Cymoedd and Cardiff and Vale College, for their input and optimism
+- My mentor, Mo Shami, for his excellent advice and support
+- My class facilitator at Code Institute, Alan Bushell, whose encouragement is appreciated and whose beard is magnificent 
 
 
 
