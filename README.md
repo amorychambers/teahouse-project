@@ -1,4 +1,8 @@
+# Tea & Time Teahouse
 
+![Website homepage on different devices](design/am-i-responsive.png)
+
+Developed by Benedict Amory Chambers
 ## Table of Contents
 
 1. [Project Goals](#project-goals)
@@ -94,7 +98,7 @@ My layout decisions were informed by development principles of presenting clear 
 
 ### Colours
 
-I have chosen an analogous colour scheme for the site, emphasising a simplicity and gentle atmosphere that matches the brand image. The colours chosen are muted and warm pastel colours, intended to be soothing, with a darker accent colour to create some contrast and draw attention to structural layout information. I chose a yellow analogous colour scheme for a positive and relaxing tone.
+I have chosen an analogous colour scheme for the site, emphasising simplicity and a gentle atmosphere that matches the brand image. The colours chosen are muted and warm pastel colours, intended to be soothing, with a darker accent colour to create some contrast and draw attention to structural layout information. I chose a yellow analogous colour scheme for a positive and relaxing tone.
 
 Main theme colour: #fbefcc
 
@@ -136,26 +140,44 @@ The site consists of four different pages and a unique 404 error page.
 ### Languages
 
 HTML5
+
 CSS3
 ### Frameworks and Tools
 
 [Bootstrap v5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+
 [Visual Studio Code](https://code.visualstudio.com/)
+
 [Git](github.com)
+
 [Google Fonts](https://fonts.google.com/)
+
 [Balsamiq](https://balsamiq.com/)
+
 [Canva](https://www.canva.com/colors/color-wheel/)
+
 [Obsidian](https://obsidian.md/)
+
 [Pexels](https://www.pexels.com/)
+
 [Imagemin](https://github.com/imagemin/imagemin-cli)
+
 [cwebp Encoder](https://developers.google.com/speed/webp/docs/cwebp)
+
 [Font Awesome](https://fontawesome.com/)
+
 [Favicon](https://favicon.io/)
+
 [W3C Markup Validation Service](https://validator.w3.org/)
+
 [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)]
+
 [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+
 [Accessible Color Generator](https://www.learnui.design/tools/accessible-color-generator.html)
+
 [Am I Responsive?](https://ui.dev/amiresponsive)
+
 [WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/)
 
 
@@ -173,12 +195,16 @@ CSS3
 
 ![Mobile header](design/features/header-mobile.png)
 
+User stories: 12
+
 ### Landing Page
 
 - Main feature is a hero image with text that aims to immediately present the user with the brand image of a relaxing, sophisticated establishment
 - Text spacing responsively adjusts to different screen sizes for consistent styling across all devices
 
 ![Hero image](design/features/hero-image.png)
+
+User stories: 11
 
 ### Ethos Images
 
@@ -191,6 +217,7 @@ CSS3
 
 ![Rotating carousel display of ethos images for tablet and mobile](design/features/ethos-mobile.png)
 
+User stories: 1, 11, 13
 
 ### Visiting Information
 
@@ -200,11 +227,15 @@ CSS3
 
 ![Visiting info with the business location and opening hours](design/features/visiting-info.png)
 
+User stories: 2, 15
+
 ### Map
 
 - Embedded interactive Google maps feature further establishes a concrete idea of the business location for the user, allowing them to place it in context of the surroundings and more easily understand how to get there
 
 ![Embedded Google maps screenshot](design/features/map.png)
+
+User stories: 2, 15
 
 ### Footer
 
@@ -216,6 +247,8 @@ CSS3
 
 ![Footer with social links and address](design/features/footer.png)
 
+User stories: 2, 5, 6, 14, 15
+
 ### Tea Menu
 
 - Selection tabs in pill style to choose between different tea types. Panels prevent clutter and keep the site focused, creating an easier experience reading and navigating the content
@@ -225,12 +258,16 @@ CSS3
 
 ![Tabpanel navigation and tea menu content](design/features/tea-tabpanels.png)
 
+User stories: 1, 3, 10, 13
+
 ### Upcoming Events
 
 - A clear table layout to show the user what upcoming events they can attend in chronological order
 - On larger screen sizes, an additional box for social media and other contact links, making it easy for the user to quickly check out event related content or make inquiries
 
 ![Table of upcoming events](design/features/upcoming-events.png)
+
+User stories: 4, 5, 8, 13
 
 ### Past Events
 
@@ -239,6 +276,7 @@ CSS3
 
 ![Previous event advertisements](design/features/past-events.png)
 
+User stories: 4, 7, 9, 13
 
 ### Contact Form
 
@@ -249,6 +287,7 @@ CSS3
 
 ![Contact form](design/features/contact-form.png)
 
+User stories: 6, 7, 9, 14
 
 ### 404 Error
 
@@ -264,18 +303,23 @@ CSS3
 Validated with the W3C Markup Validation Service
 
 index.html [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Famorychambers.github.io%2Fteahouse-project%2Findex.html)
+
 The validator lists six errors for this page, because in the carousel code snippet from Bootstrap v5.3 it was more practical to use six img elements for the carousel slides, as opposed to using a CSS background. These images do not have an alt text, in the same way any other background image would not, as the relevant textual content and context is already present as a paragraph element overlaying the slide.
 
 our-teas.html [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Famorychambers.github.io%2Fteahouse-project%2Four-teas.html)
+
 No errors or warnings
 
 events.html [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Famorychambers.github.io%2Fteahouse-project%2Fevents.html)
+
 No errors or warnings
 
 contact.html [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Famorychambers.github.io%2Fteahouse-project%2Fcontact.html)
+
 No errors or warnings
 
 404.html [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Famorychambers.github.io%2Fteahouse-project%2F404.html&__cf_chl_tk=BpbdRkXlwJ_fZmzNUC7.62S7_0b7SlerSby3X5jwV6I-1705515733-0-gaNycGzNDWU)
+
 No errors or warnings
 
 ### CSS Validation
@@ -355,6 +399,7 @@ The website was tested and proved fully functional on the following browsers;
 - Opera
 - Microsoft Edge
 
+Additionally, it has been tested on all device options using Google Chrome Developer Tools and proved responsive on all device sizes. 
 
 ### Testing User Stories
 
@@ -373,7 +418,7 @@ The website was tested and proved fully functional on the following browsers;
 | ---- | ---- | ---- | ---- |
 | Visiting Information | On homepage, scroll down below ethos images | Find opening hours and address | Works as expected |
 | Map | On homepage, scroll down below ethos images | Find interactive Google map to help place the address | Works as expected |
-| Footer | Scroll down to see the footer on all pages | Find the business address | Works as expected |
+| Footer | Scroll down to see the footer on any page | Find the business address | Works as expected |
 
 3. As a first-time user, I want to learn more about tea 
 
