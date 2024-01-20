@@ -475,7 +475,7 @@ The website was tested and proved fully functional on the following browsers;
 
 ## Bugs
 
-1. I ran into an issue with the alignment of the Our Teas panels, wherein I could not get each div for each individual tea to align properly on desktop, regardless of the size of description. For safer and clearer version control I moved to a new branch to experiment. At first I attempted to use fixed height divs but this created another issue wherein the divs no longer lined up vertically on mobile. I reverted to the original to remove any changes made during the first attempt, and secondly tried to solve the problem using CSS alignment. I made all the divs display as inline-block elements to try and use flexbox to line them up properly and responsively in the Bootstrap grid on all devices. This did not work as the divs no longer held together in an equally spaced and clean grid system, and I could not make them line up vertically with the description alongside the image, uniquely to the tablet view. I solved the problem by placing each individual tea menu item in its own row as opposed to columns within a row, giving both the image and description its own Bootstrap column, and lining them up differently based on screen size. This allowed me to use a combination of Bootstrap alignment classes and media queries to create responsive divs for each menu item, that can easily change layout on different sizes, and use a fixed height on desktop for a cleaner, equal aesthetic. 
+1. I ran into an issue with the alignment of the Our Teas panels, wherein I could not get each div for each individual tea to align properly on desktop, regardless of the size of description. For safer and clearer version control I moved to a new branch to experiment. At first I attempted to use fixed height divs but this created another issue wherein the divs no longer lined up vertically on mobile. I reverted to the original to remove any changes made during the first attempt, and secondly tried to solve the problem using CSS alignment. I made all the divs display as inline-block elements to try and use flexbox to line them up properly and responsively in the Bootstrap grid on all devices. This did not work as the divs no longer held together in an equally spaced and clean grid system, and I could not make them line up vertically with the description alongside the image, uniquely to the tablet view. I attempted to use the min-content and max-content CSS properties to create equally sized divs for each tea on desktop, but this further complicated the layout problem on tablet styles. I solved the problem by placing each individual tea menu item in its own row as opposed to columns within a row, giving both the image and description its own Bootstrap column, and lining them up differently based on screen size. This allowed me to use a combination of Bootstrap alignment classes and media queries to create responsive divs for each menu item, that can easily change layout on different sizes, and use a fixed height on desktop for a cleaner, equal aesthetic. 
 
 ##### Old Code 
 
@@ -525,16 +525,32 @@ flavour. Perfect for the colder seasons!</p>
 
 </div>
 ```
-## Media Content
 
-https://www.pexels.com/photo/gold-kettle-pouring-hot-water-on-cup-of-tea-230477/
-https://www.pexels.com/photo/red-envelopes-against-sprig-of-blooming-prunus-and-tea-7363760/
-https://www.pexels.com/photo/white-ceramic-teapot-beside-cup-with-leaves-229493/
-https://www.pexels.com/photo/food-wood-cup-mug-6545448/
-Google Maps embed
 
-https://www.pexels.com/photo/close-up-shot-of-dried-tea-leaves-6087517/
-https://www.pexels.com/photo/close-up-shot-of-dried-tea-leaves-6087518/
+The only other bugs encountered during the project were firstly a minor text size and overflow issue that was resolved by switching from fixed pixel font sizes to a more responsive em size unit, and layout mismatches that were resolved by making small changes within the Bootstrap grid layout. 
+
+
+## Deployment
+
+
+## Credits
+
+### Media Content
+
+In this project I have used stock images to represent what might more normally be custom content for a business. The majority of these stock images were downloaded from and used license-free from [Pexels](pexels.com)
+
+#### Homepage
+
+[Hero image, Mykola Osmachko](https://www.pexels.com/photo/gold-kettle-pouring-hot-water-on-cup-of-tea-230477/)
+['Say Hello' ethos background, Angela Roma](https://www.pexels.com/photo/red-envelopes-against-sprig-of-blooming-prunus-and-tea-7363760/)
+['Sit' ethos background, Mykola Osmachko](https://www.pexels.com/photo/white-ceramic-teapot-beside-cup-with-leaves-229493/)
+['Share' ethos background, Tima Miroshnichenko](https://www.pexels.com/photo/food-wood-cup-mug-6545448/)
+[Teahouse exterior image, Mingche Lee](https://www.pexels.com/photo/exterior-of-old-traditional-asian-cafe-4070930/)
+
+#### Our Teas
+
+[Da Hong Pao oolong, Eva Bronzini](https://www.pexels.com/photo/close-up-shot-of-dried-tea-leaves-6087517/)
+[Phoenix Honey Orchid oolong, Eva Bronzini](https://www.pexels.com/photo/close-up-shot-of-dried-tea-leaves-6087518/)
 https://www.pexels.com/photo/close-up-shot-of-dried-tea-leaves-6087604/
 https://www.pexels.com/photo/pile-of-dried-leaves-5988177/
 https://www.pexels.com/photo/close-up-shot-of-dried-tea-leaves-6087518/
