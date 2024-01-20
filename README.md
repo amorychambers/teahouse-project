@@ -22,13 +22,12 @@
     2. [CSS Validation](#CSS-validation)
     3. [Accessibility](#accessibility)
     4. [Performance](#performance)
-    5. [Device testing](#performing-tests-on-various-devices)
-    6. [Browser compatibility](#browser-compatibility)
-    7. [Testing user stories](#testing-user-stories)
-8. [Bugs](#bugs)
-9. [Deployment](#deployment)
-10. [Credits](#credits)
-11. [Acknowledgements](#acknowledgements)
+    5. [Compatibility](#compatibility)
+    6. [Testing user stories](#testing-user-stories)
+7. [Bugs](#bugs)
+8. [Deployment](#deployment)
+9. [Credits](#credits)
+10. [Acknowledgements](#acknowledgements)
 
 ## Project Goals
 
@@ -195,12 +194,17 @@ CSS3
 
 ### Visiting Information
 
-- Location of the business listed prominently, inviting users to visit 
+- Location of the business listed prominently, inviting users to visit
 - Opening hours listed in a clean, spacious table for ease of comprehension
 - On larger screen sizes, additional image to complete the two-by-two grid structure and make the storefront immediately recognisable 
 
 ![Visiting info with the business location and opening hours](design/features/visiting-info.png)
 
+### Map
+
+- Embedded interactive Google maps feature further establishes a concrete idea of the business location for the user, allowing them to place it in context of the surroundings and more easily understand how to get there
+
+![Embedded Google maps screenshot](design/features/map.png)
 
 ### Footer
 
@@ -350,6 +354,78 @@ The website was tested and proved fully functional on the following browsers;
 - Firefox
 - Opera
 - Microsoft Edge
+
+
+### Testing User Stories
+
+#### First-Time User
+
+1. As a first-time user, I want to know what the business is offering
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ---- | ---- | ---- | ---- |
+| Ethos Images | Open homepage | Presented with text and images conveying intended experience | Works as expected |
+| Tea Menu | Click on Our Teas page in the navigation bar | Browse full menu of products the business offers | Works as expected |
+
+2. As a first-time user, I want to make plans to visit the teahouse
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ---- | ---- | ---- | ---- |
+| Visiting Information | On homepage, scroll down below ethos images | Find opening hours and address | Works as expected |
+| Map | On homepage, scroll down below ethos images | Find interactive Google map to help place the address | Works as expected |
+| Footer | Scroll down to see the footer on all pages | Find the business address | Works as expected |
+
+3. As a first-time user, I want to learn more about tea 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ---- | ---- | ---- | ---- |
+| Tea Menu | Click on Our Teas page in navigation bar. Click between different tabs for tea types | See the range of teas and descriptions offered by the business | Works as expected |
+
+4. As a first-time user, I want to know what kind of events I might be able to attend
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Past Events | Click to Events page in navigation bar | Find past events section describing previous events | Works as expected |
+
+5. As a first-time user, I want to check out the company's social media
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ---- | ---- | ---- | ---- |
+| Footer | Scroll to the footer of any page | Find social media links | Works as expected |
+| Upcoming Events | Click on Events page on desktop | Find social media links | Works as expected |
+
+6. As a first-time user, I have questions about the accessibility of the business location
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ---- | ---- | ---- | ---- |
+| Contact Form | Click on Contact Us page in navigation bar | Find and use contact form | Works as expected |
+| Footer | Scroll to the footer of any page | Find social media links to contact the business | Works as expected |
+
+7. As a first-time user, I want to explore the possibility of renting the events space for my project
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ---- | ---- | ---- | ---- |
+| Past Events | Click on Events page in navigation bar | Find the past events section to learn about what events could be held at the business | Works as expected |
+| Contact Form | Click on Contact Us page in navigation bar | Find and use contact form | Works as expected |
+
+
+
+
+#### Returning User
+
+8. As a returning user, I want to see what new events are coming up
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Upcoming Events | Click on Events page in the navigation bar | Find table for upcoming events with dates | Works as expected |
+
+9. As a returning user, I want to rent and use the events space myself
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ---- | ---- | ---- | ---- |
+| Past Events | Click on Events page in navigation bar | Find the past events section to learn about what events could be held at the business | Works as expected |
+| Contact Form | Click on Contact Us page in navigation bar | Find and use contact form | Works as expected |
+
 
 ## Media Content
 
