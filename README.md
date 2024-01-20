@@ -194,7 +194,7 @@ CSS3
 
 ### Visiting Information
 
-- Location of the business listed prominently, inviting users to visit
+- Location of the business listed prominently, inviting users to visit 
 - Opening hours listed in a clean, spacious table for ease of comprehension
 - On larger screen sizes, additional image to complete the two-by-two grid structure and make the storefront immediately recognisable 
 
@@ -425,6 +425,54 @@ The website was tested and proved fully functional on the following browsers;
 | ---- | ---- | ---- | ---- |
 | Past Events | Click on Events page in navigation bar | Find the past events section to learn about what events could be held at the business | Works as expected |
 | Contact Form | Click on Contact Us page in navigation bar | Find and use contact form | Works as expected |
+
+10. As a returning user, I want to see what new teas are on offer at the business
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ---- | ---- | ---- | ---- |
+| Tea Menu | Click on Our Teas page in navigation bar | Navigate through tea menu, check for prominent 'New' badge | Works as expected |
+
+
+#### Site Owner
+
+11. As the site owner, I want users to get a strong first impression of the business's brand and ethos from the site
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ---- | ---- | ---- | ---- |
+| Landing Page | Open homepage | Presented with hero image and site branding | Works as expected |
+| Ethos Images | Open Homepage | Presented on desktop landing page; scroll to beneath hero image on mobile | Works as expected |
+
+12. As the site owner, I want users to have an easy time navigating around the website
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ---- | ---- | ---- | ---- |
+| Header and Navigation | Click on any link in the navigation bar from any page | Navigate to different site pages | Works as expected |
+
+13. As the site owner, I want users to be enticed to visit the teahouse
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ---- | ---- | ---- | ---- |
+| Ethos Images | Open homepage | Ethos images present a welcoming and inviting business | Works as expected |
+| Tea Menu | Click on Our Teas page in navigation bar | Browse through tabs of different teas on offer with enticing descriptions | Works as expected |
+| Past Events | Click on Events page in navigation bar | User can read about the different kinds of exciting events that have happened previously | Works as expected |
+| Upcoming Events | Click on Events page in navigation bar | User can see what upcoming events they are able to attend |  |
+
+14. As the site owner, I want users to feel welcome and encouraged to contact and engage with the business if they have any questions or issues 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ---- | ---- | ---- | ---- |
+| Contact Form | Click on Contact Us page in navigation bar | Find and use contact form | Works as expected |
+| Footer | Scroll to the footer of any page | Find social media links to contact the business | Works as expected |
+
+15. As the site owner, I want users to remember where the business is located for them to visit 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ---- | ---- | ---- | ---- |
+| Location | On homepage, scroll down below ethos images | Find the business address | Works as expected |
+| Map | On homepage, scroll down below ethos images | Find interactive Google map to help place the address | Works as expected |
+| Footer | Scroll down to see the footer on all pages | Find the business address | Works as expected |
+
+
 
 
 ## Media Content
