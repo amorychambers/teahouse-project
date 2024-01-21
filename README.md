@@ -135,6 +135,40 @@ The site consists of four different pages and a unique 404 error page.
 ### Wireframes
 
 
+Wireframes created in Balsamiq 
+
+<details><summary>Homepage</summary>
+<img src="docs/wireframes/mobile-homepage.png">
+<img src="docs/wireframes/tablet-homepage.png">
+<img src="docs/wireframes/desktop-homepage.png">
+</details>
+
+
+
+<details><summary>Our Teas</summary>
+<img src="docs/wireframes/mobile-our-teas.png">
+<img src="docs/wireframes/tablet-our-teas.png">
+<img src="docs/wireframes/desktop-our-teas.png">
+</details>
+
+
+
+<details><summary>Events</summary>
+<img src="docs/wireframes/mobile-events.png">
+<img src="docs/wireframes/tablet-events.png">
+<img src="docs/wireframes/desktop-events.png">
+</details>
+
+
+
+<details><summary>Contact</summary>
+<img src="docs/wireframes/mobile-contact.png">
+<img src="docs/wireframes/tablet-contact.png">
+<img src="docs/wireframes/desktop-contact.png">
+</details>
+
+
+
 ## Technologies 
 
 ### Languages
