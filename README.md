@@ -100,9 +100,9 @@ My layout decisions were informed by development principles of presenting clear 
 
 I have chosen an analogous colour scheme for the site, emphasising simplicity and a gentle atmosphere that matches the brand image. The colours chosen are muted and warm pastel colours, intended to be soothing, with a darker accent colour to create some contrast and draw attention to structural layout information. I chose a yellow analogous colour scheme for a positive and relaxing tone.
 
-Main theme colour: #fbefcc
+Main theme colour: <span style="color:#fbefcc">#fbefcc</span>
 
-Accent theme colour: #f7e09d
+Accent theme colour: <span style="color:#f7e09d">#f7e09d</span>
 
 ### Fonts
 
@@ -118,7 +118,7 @@ The website is designed to feel like one cohesive page, as much as that is possi
 
 The content I considered important enough to remain consistent across all pages is as follows:
 
-- A header with the site logo, and on desktop an additional title for the page the user is currently viewing
+- A header with the site logo, and on larger screens an additional title for the page the user is currently viewing
 - A navigation bar to access the different pages of the site
 - A footer with the business address to be more memorable
 - A short business tagline to reinforce the business ethos
@@ -220,7 +220,7 @@ CSS3
 ### Header and Navigation
 
 - The navigation bar is featured on every page to allow consistent navigation around the site
-- All pages are linked with the currently active page highlighted with a dark font colour
+- All pages are linked with the currently active page highlighted in a darker font colour
 - On larger screen sizes, the header responsively adds a stylistic page title to the header. On smaller screen sizes this is not displayed to create a cleaner look without clutter
 - On smaller screen sizes, the responsive navigation bar collapses into an easy-to-use hamburger menu
 
