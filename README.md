@@ -446,6 +446,10 @@ Additionally, it has been tested on all device options using Google Chrome Devel
 | Ethos Images | Open homepage | Presented with text and images conveying intended experience | Works as expected |
 | Tea Menu | Click on Our Teas page in the navigation bar | Browse full menu of products the business offers | Works as expected |
 
+<details><summary>Screen Capture</summary>
+<img src="docs/user-stories/testing-user-story-one.gif">
+</details>
+
 2. As a first-time user, I want to make plans to visit the teahouse
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -454,17 +458,29 @@ Additionally, it has been tested on all device options using Google Chrome Devel
 | Map | On homepage, scroll down below ethos images | Find interactive Google map to help place the address | Works as expected |
 | Footer | Scroll down to see the footer on any page | Find the business address | Works as expected |
 
+<details><summary>Screen Capture</summary>
+<img src="docs/user-stories/testing-user-story-two.gif">
+</details>
+
 3. As a first-time user, I want to learn more about tea 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 | ---- | ---- | ---- | ---- |
 | Tea Menu | Click on Our Teas page in navigation bar. Click between different tabs for tea types | See the range of teas and descriptions offered by the business | Works as expected |
 
+<details><summary>Screen Capture</summary>
+<img src="docs/user-stories/testing-user-story-three.gif">
+</details>
+
 4. As a first-time user, I want to know what kind of events I might be able to attend
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Past Events | Click to Events page in navigation bar | Find past events section describing previous events | Works as expected |
+
+<details><summary>Screen Capture</summary>
+<img src="docs/user-stories/testing-user-story-four.gif">
+</details>
 
 5. As a first-time user, I want to check out the company's social media
 
@@ -473,12 +489,20 @@ Additionally, it has been tested on all device options using Google Chrome Devel
 | Footer | Scroll to the footer of any page | Find social media links | Works as expected |
 | Upcoming Events | Click on Events page on desktop | Find social media links | Works as expected |
 
+<details><summary>Screen Capture</summary>
+<img src="docs/user-stories/testing-user-story-five.gif">
+</details>
+
 6. As a first-time user, I have questions about the accessibility of the business location
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 | ---- | ---- | ---- | ---- |
 | Contact Form | Click on Contact Us page in navigation bar | Find and use contact form | Works as expected |
 | Footer | Scroll to the footer of any page | Find social media links to contact the business | Works as expected |
+
+<details><summary>Screen Capture</summary>
+<img src="docs/user-stories/testing-user-story-six.gif">
+</details>
 
 7. As a first-time user, I want to explore the possibility of renting the events space for my project
 
@@ -487,7 +511,9 @@ Additionally, it has been tested on all device options using Google Chrome Devel
 | Past Events | Click on Events page in navigation bar | Find the past events section to learn about what events could be held at the business | Works as expected |
 | Contact Form | Click on Contact Us page in navigation bar | Find and use contact form | Works as expected |
 
-
+<details><summary>Screen Capture</summary>
+<img src="docs/user-stories/testing-user-story-seven.gif">
+</details>
 
 
 #### Returning User
@@ -498,6 +524,10 @@ Additionally, it has been tested on all device options using Google Chrome Devel
 |-------------|------------|---------------------|-------------------|
 | Upcoming Events | Click on Events page in the navigation bar | Find table for upcoming events with dates | Works as expected |
 
+<details><summary>Screen Capture</summary>
+<img src="docs/user-stories/testing-user-story-eight.gif">
+</details>
+
 9. As a returning user, I want to rent and use the events space myself
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -505,12 +535,19 @@ Additionally, it has been tested on all device options using Google Chrome Devel
 | Past Events | Click on Events page in navigation bar | Find the past events section to learn about what events could be held at the business | Works as expected |
 | Contact Form | Click on Contact Us page in navigation bar | Find and use contact form | Works as expected |
 
+<details><summary>Screen Capture</summary>
+<img src="docs/user-stories/testing-user-story-nine.gif">
+</details>
+
 10. As a returning user, I want to see what new teas are on offer at the business
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 | ---- | ---- | ---- | ---- |
 | Tea Menu | Click on Our Teas page in navigation bar | Navigate through tea menu, check for prominent 'New' badge | Works as expected |
 
+<details><summary>Screen Capture</summary>
+<img src="docs/user-stories/testing-user-story-ten.gif">
+</details>
 
 #### Site Owner
 
@@ -521,11 +558,19 @@ Additionally, it has been tested on all device options using Google Chrome Devel
 | Landing Page | Open homepage | Presented with hero image and site branding | Works as expected |
 | Ethos Images | Open Homepage | Presented on desktop landing page; scroll to beneath hero image on mobile | Works as expected |
 
+<details><summary>Screen Capture</summary>
+<img src="docs/user-stories/testing-user-story-eleven.png">
+</details>
+
 12. As the site owner, I want users to have an easy time navigating around the website
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 | ---- | ---- | ---- | ---- |
 | Header and Navigation | Click on any link in the navigation bar from any page | Navigate to different site pages | Works as expected |
+
+<details><summary>Screen Capture</summary>
+<img src="docs/user-stories/testing-user-story-twelve.gif">
+</details>
 
 13. As the site owner, I want users to be enticed to visit the teahouse
 
@@ -536,12 +581,20 @@ Additionally, it has been tested on all device options using Google Chrome Devel
 | Past Events | Click on Events page in navigation bar | User can read about the different kinds of exciting events that have happened previously | Works as expected |
 | Upcoming Events | Click on Events page in navigation bar | User can see what upcoming events they are able to attend | Works as expected |
 
+<details><summary>Screen Capture</summary>
+<img src="docs/user-stories/testing-user-story-thirteen.gif">
+</details>
+
 14. As the site owner, I want users to feel welcome and encouraged to contact and engage with the business if they have any questions or issues 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 | ---- | ---- | ---- | ---- |
 | Contact Form | Click on Contact Us page in navigation bar | Find and use contact form | Works as expected |
 | Footer | Scroll to the footer of any page | Find social media links to contact the business | Works as expected |
+
+<details><summary>Screen Capture</summary>
+<img src="docs/user-stories/testing-user-story-fourteen.gif">
+</details>
 
 15. As the site owner, I want users to remember where the business is located for them to visit 
 
@@ -551,7 +604,9 @@ Additionally, it has been tested on all device options using Google Chrome Devel
 | Map | On homepage, scroll down below ethos images | Find interactive Google map to help place the address | Works as expected |
 | Footer | Scroll down to see the footer on all pages | Find the business address | Works as expected |
 
-
+<details><summary>Screen Capture</summary>
+<img src="docs/user-stories/testing-user-story-fifteen.gif">
+</details>
 
 ## Bugs
 
